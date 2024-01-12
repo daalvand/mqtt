@@ -2,6 +2,7 @@
 version: "3.7"
 services:
   mqtt:
+    user: "1000:1000"
     image: eclipse-mosquitto:latest
     container_name: mqtt
     ports:
